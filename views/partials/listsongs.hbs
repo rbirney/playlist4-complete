@@ -1,0 +1,32 @@
+<table class="ui fixed table">
+  <thead>
+    <tr>
+      <th class="six wide">Song</th>
+      <th class="six wide">Artist</th>
+      <th class="two wide"> </th>
+      <th class="two wide"> </th>
+    </tr>
+  </thead>
+<tbody>
+    {{#each playlist.songs}}
+    <form class = "ui form" action="/playlist/{{../playlist.id}}/updatesong/{{id}}" method="POST">
+    <tr class="inline fields">
+      <td class="ui small input field">
+         <input placeholder="Title" type="text" size = "30" name="title" autofocus required value = "{{title}}">
+      </td>
+      <td class="ui small input field">
+        <input placeholder="Artist" type="text" size = "30" name="artist" required value = "{{artist}}">
+      </td>
+      <td>
+        <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
+      </td>
+      <td>
+        <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button delsong">
+          <i class="icon trash"></i>
+        </a>
+      </td>
+    </tr>
+    </form> 
+    {{/each}}
+  </tbody>
+</table>

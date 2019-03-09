@@ -1,0 +1,81 @@
+{
+  "playlistCollection": [
+    {
+      "id": "01",
+      "title": "Beethoven Sonatas",
+      "duration": 35,
+      "songs": [
+        {
+          "id": "04",
+          "title": "Piano Sonata No. 5",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 5
+        },
+        {
+          "id": "05",
+          "title": "Piano Sonata No. 7",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 6
+        },
+        {
+          "id": "06",
+          "title": "Piano Sonata No. 10",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Beethoven Concertos",
+      "duration": 23,
+      "songs": [
+        {
+          "id": "07",
+          "title": "Piano Concerto No. 0",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 8
+        },
+        {
+          "id": "08",
+          "title": "Piano Concerto No. 4",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 3
+        },
+        {
+          "id": "09",
+          "title": "Piano Concerto No. 6",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Beethoven Variations",
+      "duration": 67,
+      "songs": [
+        {
+          "id": "10",
+          "title": "Opus 34: Six variations on a theme in F major",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 11
+        },
+        {
+          "id": "11",
+          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 45
+        }
+      ]
+    }
+  ]
+}
