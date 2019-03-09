@@ -1,0 +1,30 @@
+{
+  "name": "glitch-list",
+  "version": "0.0.1",
+  "description": "Starter project for learning Glitch",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "cookie-parser": "^1.4.3",
+    "express-handlebars": "^3.0.0",
+    "lodash": "^4.17.3",
+    "lowdb": "^0.14.0",
+    "uuid": "^3.0.1",
+    "winston": "^2.3.0"
+  },
+  "engines": {
+    "node": "6.9.1"
+  },
+  "repository": {
+    "url": "https://github.com/rbirney/playlist4-complete.git"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
