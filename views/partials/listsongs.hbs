@@ -10,12 +10,16 @@
 <tbody>
     {{#each playlist.songs}}
     <form class = "ui form" action="/playlist/{{../playlist.id}}/updatesong/{{id}}" method="POST">
-    <tr class="inline fields">
-      <td class="ui small input field">
+    <tr class="fields">
+      <td class="field">
+        <span class="ui input">
          <input placeholder="Title" type="text" size = "30" name="title" autofocus required value = "{{title}}">
+        </span>
       </td>
-      <td class="ui small input field">
-        <input placeholder="Artist" type="text" size = "30" name="artist" required value = "{{artist}}">
+      <td class="field">
+        <span class="ui input">
+          <input placeholder="Artist" type="text" size = "30" name="artist" required value = "{{artist}}">
+        </span>
       </td>
       <td>
         <button class="ui submit icon button"><i class="icon pencil alternate"></i></button>
